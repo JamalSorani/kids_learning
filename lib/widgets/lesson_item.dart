@@ -1,11 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:kids_learning/screens/grid_screens/animals_page.dart';
-import 'package:kids_learning/screens/grid_screens/food_page.dart';
-import 'package:kids_learning/screens/grid_screens/fruits_page.dart';
-import 'package:kids_learning/screens/grid_screens/numbers_page.dart';
-import 'package:kids_learning/screens/grid_screens/shapes_page.dart';
-
-import '../screens/grid_screens/colors_page.dart';
 
 class Lesson extends StatefulWidget {
   const Lesson({super.key, required this.title, required this.color});
