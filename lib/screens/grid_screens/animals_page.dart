@@ -3,7 +3,7 @@ import 'package:kids_learning/widgets/item.dart';
 
 class AnimalsPage extends StatefulWidget {
   const AnimalsPage({super.key});
-  static String route = '/animals';
+
   @override
   State<AnimalsPage> createState() => _AnimalsPageState();
 }

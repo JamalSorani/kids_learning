@@ -4,7 +4,7 @@ import '../../widgets/item.dart';
 
 class FoodPage extends StatefulWidget {
   const FoodPage({super.key});
-  static String route = '/food';
+
   @override
   State<FoodPage> createState() => _FoodPageState();
 }

@@ -4,7 +4,6 @@ import 'package:kids_learning/widgets/item.dart';
 class NumbersPage extends StatefulWidget {
   const NumbersPage({super.key});
 
-  static String route = '/numpers';
   @override
   State<NumbersPage> createState() => _NumbersPageState();
 }

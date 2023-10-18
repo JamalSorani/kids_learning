@@ -10,26 +10,16 @@ import '../screens/grid_screens/colors_page.dart';
 class Lesson extends StatefulWidget {
   const Lesson({super.key, required this.title, required this.color});
   final Color color;
+  final String title;
   @override
   State<Lesson> createState() => _LessonState();
-  final String title;
 }
 
 class _LessonState extends State<Lesson> {
   @override
   Widget build(BuildContext context) {
     String tit = widget.title;
-    String route = tit == 'Numbers'
-        ? NumbersPage.route
-        : tit == 'Colors'
-            ? ColorsPage.route
-            : tit == 'Fruits'
-                ? FruitsPage.route
-                : tit == 'Food'
-                    ? FoodPage.route
-                    : tit == 'Shapes'
-                        ? ShapesPage.route
-                        : AnimalsPage.route;
+    String route = '/$tit';
     return ClipRRect(
       borderRadius: BorderRadius.circular(20),
       child: Container(

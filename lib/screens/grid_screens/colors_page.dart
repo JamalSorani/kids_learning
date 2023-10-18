@@ -3,7 +3,7 @@ import 'package:kids_learning/widgets/color_item.dart';
 
 class ColorsPage extends StatefulWidget {
   const ColorsPage({super.key});
-  static String route = '/colors';
+
   @override
   State<ColorsPage> createState() => _ColorsPageState();
 }

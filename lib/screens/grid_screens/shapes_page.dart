@@ -4,7 +4,7 @@ import '../../widgets/item.dart';
 
 class ShapesPage extends StatefulWidget {
   const ShapesPage({super.key});
-  static String route = '/shapes';
+
   @override
   State<ShapesPage> createState() => _ShapesPageState();
 }

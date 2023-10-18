@@ -30,12 +30,12 @@ class MyApp extends StatelessWidget {
       home: const HomePage(),
       routes: {
         LessonsPage.route: (context) => const LessonsPage(),
-        NumbersPage.route: (context) => const NumbersPage(),
-        ColorsPage.route: (context) => const ColorsPage(),
-        FruitsPage.route: (context) => const FruitsPage(),
-        FoodPage.route: (context) => const FoodPage(),
-        ShapesPage.route: (context) => const ShapesPage(),
-        AnimalsPage.route: (context) => const AnimalsPage(),
+        '/Numbers': (context) => const NumbersPage(),
+        '/Colors': (context) => const ColorsPage(),
+        '/Fruits': (context) => const FruitsPage(),
+        '/Food': (context) => const FoodPage(),
+        '/Shapes': (context) => const ShapesPage(),
+        '/Animals': (context) => const AnimalsPage(),
       },
     );
   }

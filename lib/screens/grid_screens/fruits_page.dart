@@ -4,7 +4,7 @@ import 'package:kids_learning/widgets/item.dart';
 
 class FruitsPage extends StatefulWidget {
   const FruitsPage({super.key});
-  static String route = '/fruits';
+
   @override
   State<FruitsPage> createState() => _FruitsPageState();
 }
